@@ -1,0 +1,2 @@
+import{t as e}from"./rolldown-runtime.Bi-D_2cA.mjs";function t(e,t){return{description:`We break rivals. We claim titles. Competitive Roblox esports across Super Street Soccer, Dodgeball Zero, and Courtside Volleyball.`,robots:`max-image-preview:large`,title:`Heartbreakers Esports`}}function n(){return(n=e((()=>{})))()}export{t as n,n as t};
+//# sourceMappingURL=shared-lib.DCI2benO.mjs.map
