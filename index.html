@@ -167,5 +167,14 @@
 	<!-- Start of bodyEnd -->
     
     <!-- End of bodyEnd -->
-</body>
+<script>
+  document.addEventListener('click', function(e) {
+    const link = e.target.closest('a');
+    if (link && link.origin === window.location.origin && !link.hash) {
+      e.preventDefault();
+      e.stopImmediatePropagation();
+      window.location.href = link.href;
+    }
+  }, true);
+</script></body>
 </html>
